@@ -6,7 +6,7 @@ p.test{
 }
 
 .TextShadow{
-	text-shadow: 1px 10px yellow;
+	text-shadow: 2px 2px 2px grey;
 }
 
 .PictureShadow{
