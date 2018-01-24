@@ -16,3 +16,13 @@ p.test{
 section{
 	background-color: orange;
 }
+
+.bigheader{
+	font-size: 80px;
+}
+.middleheader{
+	font-size: 30px;
+}
+.smallheader{
+	font-size: 10px;
+}
