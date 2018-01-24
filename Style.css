@@ -12,3 +12,7 @@ p.test{
 .PictureShadow{
 	box-shadow: 10px 10px 5px grey;
 }
+
+section{
+	background-color: orange;
+}
