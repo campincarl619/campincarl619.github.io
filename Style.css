@@ -23,8 +23,12 @@ p.change{
 }
 
 a.colorChange{
-	background-color: rgb(13,191,149);
-	color: white;
+	color: rgb(0,0,0);
+}
+
+.navbar-default .navbar-brand {
+	color:#fffaf0;
+	background-color: rgb(12,191,149); 
 	font-size: 30px;
 	font-weight: bold;
 }
