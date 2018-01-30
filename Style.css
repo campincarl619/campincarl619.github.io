@@ -6,23 +6,25 @@
 	box-shadow: 10px 10px 5px grey;
 }
 
-section{
-	background-color: "green"
+.navBarColor{
+	background-color: rgb(13,191,149);
 }
 
-.bigheader{
-	font-size: 80px;
-}
-.middleheader{
-	font-size: 30px;
-}
-.smallheader{
-	font-size: 10px;
+section{
+	background-color: "green"
 }
 p.change{
 	font-size: 18px;
 }
 
-a.color{
+.headerText{
+	color: rgb(13,191,149);
+	font-weight: bold;
+}
 
+a.colorChange{
+	background-color: rgb(13,191,149);
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
 }
