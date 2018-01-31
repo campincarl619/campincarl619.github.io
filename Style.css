@@ -1,18 +1,7 @@
-.TextShadow{
-	text-shadow: 2px 2px 2px grey;
-}
-
-.PictureShadow{
-	box-shadow: 10px 10px 5px grey;
-}
-
 .navBarColor{
 	background-color: rgb(13,191,149);
 }
 
-section{
-	background-color: "green"
-}
 p.change{
 	font-size: 18px;
 }
@@ -21,10 +10,27 @@ p.change{
 	color: rgb(13,191,149);
 	font-weight: bold;
 }
-
+ 	
 .navbar-default .navbar-brand {
 	color:#fffaf0;
 	background-color: rgb(12,191,149); 
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(120,120,120);
+    color: white;
+    text-align: center;
+}
+
+.centeredText{
+	text-align: justify;
+ 	margin: 0 auto;
+  	width: 30em;
 }
