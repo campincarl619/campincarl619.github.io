@@ -22,34 +22,33 @@
     <div class="container">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        	<a class="navbar-brand" href="index.html">Lattitude</a>
+          <a class="navbar-brand" href="index.html">Lattitude</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse" id="collapsingNavbarLg">
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
-                	<ul class="dropdown-menu">
-                		<li><a href="Max Temperature.html">Max Temperature</a></li>
-                		<li><a href="Humidity.html">Humidity</a></li>
-                		<li><a href="Cloudiness.html">Cloudiness</a></li>
-                		<li><a href="Wind Speed.html">Wind Speed</a></li>
-                	</ul>
-              		<li><a href="Comparison.html">Comparison</a></li>
-              		<li><a href="Data.html">Data</a></li>
-            	</ul>
-        	</li>
-    	</div><!--/.nav-collapse -->
-	</div><!--/.container-fluid -->
+                  <ul class="dropdown-menu">
+                    <li><a href="Max Temperature.html">Max Temperature</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloudiness.html">Cloudiness</a></li>
+                    <li><a href="Wind Speed.html">Wind Speed</a></li>
+                  </ul>
+                  <li><a href="Comparison.html">Comparison</a></li>
+                  <li><a href="Data.html">Data</a></li>
+              </ul>
+          </li>
+      </div>
+  </div>
 </nav>
 
 <div class="container-fluid">
   <div class="container" style="background-color: White">
-    <div class="row" class="row justify-content-center">
+    <div class="row">
       <div class="col-md-12">
         <h1 class="headerText">Comparison: Latitude vs X<h1>
         <hr>
@@ -57,14 +56,24 @@
       <div class="col-md-12">
         Click any plot to get an in-depth analysis
       </div>
-      <div class="row" class="centered">
+      <div class="row">
         <div class="col-md-6">
-          <h3 class="headerText"> vs. Max Temperature</h3>
-          <a href="Max Temperature.html"><img src="Pictures\Temp Vs Lat.png" class="img-responsive"></a>
+          <h3 class="headerText centered"> vs. Max Temperature</h3>
+          <a href="Max Temperature.html"><img class="center-block" src="Pictures\Temp Vs Lat.png" class="img-responsive"></a>
         </div>
         <div class="col-md-6">
-          <h3 class="headerText"> vs. Humidity</h3>
-          <a href="Max Temperature.html"><img src="Pictures\Temp Vs Lat.png" class="img-responsive"></a>
+          <h3 class="headerText centered"> vs. Humidity</h3>
+          <a href="Humidity.html"><img class="center-block" src="Pictures\Hum Vs Lat.png" class="img-responsive"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="headerText centered"> vs. Cloudiness</h3>
+          <a href="Cloudiness.html"><img class="center-block" src="Pictures\Cloud Vs Lat.png" class="img-responsive"></a>
+        </div>
+        <div class="col-md-6">
+          <h3 class="headerText centered"> vs. Wind Speed</h3>
+          <a href="Wind Speed.html"><img class="center-block" src="Pictures\Wind Vs Lat.png" class="img-responsive"></a>
         </div>
       </div>
     </div>
